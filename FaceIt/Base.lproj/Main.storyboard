@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z4B-gV-fPa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z4B-gV-fPa">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,11 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="8R1-JB-Gde" customClass="FaceView" customModule="FaceIt" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
+                                <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="eyesOpen" value="YES"/>
@@ -71,10 +71,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iKs-jR-ZJ4">
-                                <rect key="frame" x="91" y="274" width="138" height="220"/>
+                                <rect key="frame" x="92.5" y="274" width="135" height="220"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcR-5F-2SB">
-                                        <rect key="frame" x="0.0" y="0.0" width="138" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Sad"/>
                                         <connections>
@@ -82,7 +82,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBk-as-vU8">
-                                        <rect key="frame" x="0.0" y="80" width="138" height="60"/>
+                                        <rect key="frame" x="0.0" y="80" width="135" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Happy"/>
                                         <connections>
@@ -90,7 +90,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOr-YS-MDN">
-                                        <rect key="frame" x="0.0" y="160" width="138" height="60"/>
+                                        <rect key="frame" x="0.0" y="160" width="135" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Worried"/>
                                         <connections>
@@ -115,22 +115,22 @@
         <!--Split View Controller-->
         <scene sceneID="aEv-h1-Yu1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="csQ-RI-oLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <splitViewController id="z4B-gV-fPa" sceneMemberID="viewController">
                     <connections>
                         <segue destination="Hbc-JI-IEO" kind="relationship" relationship="masterViewController" id="egb-yi-4io"/>
                         <segue destination="Jhu-Lu-HsS" kind="relationship" relationship="detailViewController" id="56O-ny-bLM"/>
                     </connections>
                 </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="csQ-RI-oLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1822" y="77"/>
+            <point key="canvasLocation" x="-1797" y="180"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KO7-Qx-gw4">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hbc-JI-IEO" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="L5t-Rv-zrd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="L5t-Rv-zrd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -148,7 +148,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jhu-Lu-HsS" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dIC-wG-DLS">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dIC-wG-DLS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -159,10 +159,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XtM-WV-RX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-879.20000000000005" y="602.24887556221893"/>
+            <point key="canvasLocation" x="-797" y="623"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mOK-jC-8j6"/>
+        <segue reference="56O-ny-bLM"/>
     </inferredMetricsTieBreakers>
 </document>
