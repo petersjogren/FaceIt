@@ -5,9 +5,11 @@
 //  Created by CS193p Instructor.
 //  Copyright © 2015-17 Stanford University. All rights reserved.
 //
+
 import Foundation
 
 // UI-independent representation of a facial expression
+
 struct FacialExpression
 {
     enum Eyes: Int {
@@ -34,11 +36,10 @@ struct FacialExpression
     var sadder: FacialExpression {
         return FacialExpression(eyes: self.eyes, mouth: self.mouth.sadder)
     }
-    
     var happier: FacialExpression {
         return FacialExpression(eyes: self.eyes, mouth: self.mouth.happier)
     }
-    
+
     let eyes: Eyes
     let mouth: Mouth
 }

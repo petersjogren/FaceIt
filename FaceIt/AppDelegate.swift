@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  FaceIt
 //
-//  Created by Peter Sjögren on 2017-06-15.
-//  Copyright © 2017 Peter Sjögren. All rights reserved.
+//  Created by CS193p Instructor on 1/23/17.
+//  Copyright © 2017 Stanford University. All rights reserved.
 //
 
 import UIKit
