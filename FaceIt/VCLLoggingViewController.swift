@@ -7,6 +7,9 @@
 
 import UIKit
 
+//grejor
+//och grunkor
+
 class VCLLoggingViewController : UIViewController
 {
     private struct LogGlobals {
