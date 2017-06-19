@@ -9,6 +9,7 @@ import UIKit
 
 //grejor
 //och grunkor
+// ocj lite till
 
 class VCLLoggingViewController : UIViewController
 {
